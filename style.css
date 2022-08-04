@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+.menu {
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+
+ul li {
+    padding: 0px 15px;
+    margin-top: 15px;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+a:hover {
+    color: green;
+    transition: 0.09ms;
+    font-size: 18px;
+}
+
+.herosection {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+form {
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+form a {
+    color: black;
+    text-decoration: none;
+    font-family: Montserrat;
+}
+
+input {
+    padding: 6px 10px;
+    font-family: Montserrat;
+    font-weight: 500;
+    margin: 10px 0px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+form button {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: Montserrat;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+/* iframe {
+    padding: 20px;
+    border-radius: 10px;
+} */
+
+.footer {
+    text-align: center;
+    font-family: Montserrat;
+}
+
+.follow-us {
+    width: 100%;
+    margin: 20px 5px;
+    font-family: Montserrat;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.follow-us ul {
+    padding-bottom: 10px;
+}
+
+.follow-us ul a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.follow-us li {
+    list-style-type: none;
+}
+
+.follow-us h2 {
+    background-color: black;
+    padding: 10px 10px;
+    color: #fff;
+}
+
+.tutorial {
+    width: 100%;
+    margin: 20px 5px;
+    font-family: Montserrat;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.tutorial h2 {
+    font-size: 15px;
+    background-color: black;
+    padding: 10px 10px;
+    color: #fff;
+}
+
+#tutorialsiframe {
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.tutorial iframe {
+    margin: 2px 0px;
+}
